@@ -1,0 +1,6 @@
+numpy
+librosa
+pydub
+pandas
+pychord
+spleeter
