@@ -28,6 +28,6 @@ services:
       SPRING_DATASOURCE_PASSWORD: cchordpass
     ports:
       - "8848:8848"
-
+    restart: on-failure
 volumes:
   mysql_data:
