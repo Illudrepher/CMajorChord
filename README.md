@@ -12,7 +12,7 @@
 
 **Note:**  
 This project runs using **Docker**. Please make sure you have **Docker Desktop** (Windows/macOS).  
-Please allocate at least **10 GB** of memory to Docker Desktop to ensure the MIR analysis works properly.    
+Please allocate at least **10 GB** of memory to Docker Desktop to ensure the chord analysis works properly.    
 If the port **8848** is already in use, close the conflicting process or update the port mapping inside **docker-compose.yml**.  
 ### macOS / Linux
 
