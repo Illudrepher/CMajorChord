@@ -1,1 +1,2 @@
-# CMajorChord
+# C-Major-Chord
+## Description
