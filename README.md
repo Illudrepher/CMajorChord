@@ -5,7 +5,7 @@
 <h1 align="center">C-Chord</h1>
 
 <p align="center">
-  <b>A web-based chord recognition tool powered by MIR + Python + Spring Boot + Vue.js</b>
+  <b>A web-based chord recognition tool powered by Spring Boot + Vue.js + Python</b>
 </p>
 
 ## How to Run
