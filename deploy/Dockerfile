@@ -13,4 +13,3 @@ RUN chmod +x /app/mir/analyze.sh
 COPY backend/target/app.jar /app/app.jar
 EXPOSE 8848
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
-1
