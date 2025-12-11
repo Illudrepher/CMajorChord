@@ -122,6 +122,7 @@ def main():
     input_base_path = sys.argv[1]
     synth_path = synthAudios(input_base_path)
     analyze(synth_path, input_base_path)
+    print("analysis script execution done.")
 
     
 if __name__ == "__main__":

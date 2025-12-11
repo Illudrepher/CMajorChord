@@ -1,6 +1,6 @@
 numpy
 librosa
 pydub
+spleeter
 pandas
 pychord
-spleeter

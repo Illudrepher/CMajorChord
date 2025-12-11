@@ -31,3 +31,4 @@ services:
     restart: on-failure
 volumes:
   mysql_data:
+    1
