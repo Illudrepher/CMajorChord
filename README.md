@@ -81,6 +81,15 @@ C-Chord is a web-based chord recognition system that analyzes uploaded audio and
 
 ---
 
+### Technical Details for python MIR script  
+- The script first gets time intervals by checking if a major chroma shift occurs. This step helps generate time boundaries for each chord, which is essential for chord recognition and pseudo real-time chord display.  
+- For note detection, the note with the second strongest average chroma in an interval is selected as the standard note to evaluate whether other notes are included, as it works best after some initial exploration.    
+- For note detection, no more than five notes are considered within one interval, as this makes more musical sense.  
+- For chord recognition, the script runs through every possible permutation, and keeps scoring the corresponding chord, the shorter the chord name is, the higher the score. The chord with the best score is kept as the final result. Although this approach makes sense for songs with simpler harmony, for more complicated songs, this assumption will fall short.
+
+---
+
+
 ### Limitations & Future Improvements
 
 - Initially, I intended to stream and analyze audio directly from NetEase, but this proved both technically challenging and legally infeasible. As a result, C-Chord relies on user-uploaded MP3 files. A production-ready system would require integration with licensed music services.
@@ -97,6 +106,8 @@ C-Chord is a web-based chord recognition system that analyzes uploaded audio and
   - exploring large-scale pretrained audio models  
 
 ## Tech Stack
+
+---
 
 ### Frontend
 - **Vue 3** — UI framework  
@@ -119,6 +130,6 @@ C-Chord is a web-based chord recognition system that analyzes uploaded audio and
 - **Docker** — consistent execution environment across systems  
 
 ### APIs / External Services
-- **NetEase Cloud Music API** — song search and metadata retrieval  
+- **NetEase Cloud Music API** — song search and metadata retrieval
 
 
