@@ -107,7 +107,6 @@ C-Chord is a web-based chord recognition system that analyzes uploaded audio and
 
 ## Tech Stack
 
----
 
 ### Frontend
 - **Vue 3** — UI framework  
