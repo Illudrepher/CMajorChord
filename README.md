@@ -81,7 +81,7 @@ C-Chord is a web-based chord recognition system that analyzes uploaded audio and
 
 ---
 
-### Technical Details for python MIR script  
+### Technical Details for Python MIR Script  
 - The script first gets time intervals by checking if a major chroma shift occurs. This step helps generate time boundaries for each chord, which is essential for chord recognition and pseudo real-time chord display.  
 - For note detection, the note with the second strongest average chroma in an interval is selected as the standard note to evaluate whether other notes are included, as it works best after some initial exploration.    
 - For note detection, no more than five notes are considered within one interval, as this makes more musical sense.  
