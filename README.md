@@ -47,7 +47,17 @@ docker compose up --build -d
   <img src="docs/query.gif" width="70%" alt="Query">
 </p>
 
+## Flowcharts  
+**Flowchart for song metadata**  
+<p align="center">
+  <img src="docs/SongMetaFlowChart.png" alt="SongMeta">
+</p>
 
+**FlowChart for Analysis Data**  
+**Note: mp3 files are renamed to their hash256 to avoid file name conflict and to ensure safety**  
+<p align="center">
+  <img src="docs/AnalysisFlowChart.png" alt="SongMeta">
+</p>
 
 ## Description
 
